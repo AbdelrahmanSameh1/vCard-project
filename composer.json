@@ -1,0 +1,23 @@
+{
+    "name" : "vcard/project",
+    "description": "VCard Saas Project",
+    "license": "MIT",
+    "type": "framework",
+    "require": {
+        "php": ">=7"
+    },
+    "autoload": {
+        "psr-4": {
+            "itrax\\": "src"
+        },
+        "files": [
+            "src/core/support/helper.php"
+        ]
+    },
+    "authors": [
+        {
+            "name": "Abdelrahman Sameh",
+            "email": "abdelrhmansameh92@gmail.com"
+        }
+    ]
+}
